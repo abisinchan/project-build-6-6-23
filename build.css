@@ -1,0 +1,43 @@
+
+body{
+    background-color: rgb(61, 58, 58);
+    font-family: Georgia;
+}
+form{
+    border: 1px solid black;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px 0;
+    background-color: bisque;
+}
+
+input{
+    border: 1px solid grey;
+     margin-bottom: 5px;
+   border-radius: 5px;
+   padding: 5px;
+
+}
+
+button{
+    background-color:burlywood;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 2px grey ;
+    cursor: pointer;
+    transition: opacity .15s, border .15s;
+}
+
+button:hover {
+ opacity: .8;
+}
+
+button:active{
+    border: 1px solid black;
+}
+
